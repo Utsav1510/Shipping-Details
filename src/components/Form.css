@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+}
+
+body {
+    
+    background-image: url("https://img.freepik.com/free-photo/pastel-sky-background-with-text-space_53876-125302.jpg?w=2000");
+    background-size: 100% 160%;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+h1 {
+
+    text-align: center;
+    margin-top: 120px;
+    text-shadow: 3px 3px black;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    height: 450px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding-top: 20px;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.7);
+
+}
+
+.container label {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 15px;
+    line-height: 2;
+    margin-top: 10px;
+    color: white;
+    text-transform: uppercase;
+
+
+}
+
+.container input {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 170px;
+    margin-top:11px;
+    margin-bottom: 30px;
+    padding-left: 0;
+    font-weight: bold;
+    text-align: center;
+    
+
+}
+
+.btn {
+    width: 170px !important;
+    margin-top: 50px;
+    height: 40px !important;
+    background-color: white;
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 2px 3px 6px 2px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    text-align: center !important;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 2px 3px 6px 2px #fff;
+}
+
+
+
