@@ -7,6 +7,12 @@ import './added.css';
 export default function Added() {
   let history=useNavigate();
   history('/');
+  const handleSubmit = (e) => {
+    e.preventDefalut();
+  }
+  
+
+ 
 
   return (
     <div className='background'>
@@ -37,6 +43,9 @@ export default function Added() {
           }
         </tbody>
       </table>
+      <Link to='/'>
+          <button className='btn' type="Back" onClick={handleSubmit}>Go Back </button>
+        </Link>
       </div>
 
     </div>

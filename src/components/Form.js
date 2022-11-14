@@ -11,10 +11,10 @@ export default function Form() {
   const [player, setplayer] = useState('');
   const [rating, setrating] = useState('');
 
-  let history = useNavigate();
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    let a = position, b = player, c = rating;
+  let history = useNavigate(); 
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      let a = position, b = player, c = rating;
     Cricketers.push({ a, b, c });
     // console.log(Cricketers);
     history('/added');
